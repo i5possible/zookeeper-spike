@@ -11,6 +11,5 @@ repositories {
 
 dependencies {
     testCompile 'junit:junit:4.12'
-//    compile 'org.apache.zookeeper:zookeeper:3.4.9'
     compile group: 'org.apache.zookeeper', name: 'zookeeper', version: '3.4.9'
 }
